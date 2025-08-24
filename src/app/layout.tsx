@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} antialiased`}>
+      <body className={`${inter.className} antialiased px-6 py-8 max-w-2xl mx-auto`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
