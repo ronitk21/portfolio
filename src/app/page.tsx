@@ -17,14 +17,14 @@ export default function Home() {
         <ModeToggle />
       </div>
       <div className="mt-24 flex flex-col items-start justify-center gap-8 md:gap-6 animate-fade-in [animation-delay:200ms]">
-        <h1 className="text-2xl md:text-xl lg:text-4xl font-semibold text-muted-foreground leading-7 lg:leading-10 animate-fade-in [animation-delay:400ms]">
+        <h1 className="text-[21px] md:text-3xl lg:text-4xl font-semibold text-muted-foreground sm:leading-8 md:leading-10 max-w-full sm:max-w-[40ch] md:max-w-[60ch] text-balance">
           Hey There 👋,
           <span className="font-bold text-foreground transition-colors duration-300 hover:text-muted-foreground">
             {" "}
             I&apos;m Ronit,
-          </span>{" "}
-          <br />
-          trying to solve my own problems using technology.
+          </span>
+          <br className="hidden md:inline" /> trying to solve my own problems
+          using technology.
         </h1>
         <div className="text-muted-foreground space-y-0.5 animate-fade-in [animation-delay:600ms]">
           <p className="text-sm md:text-base">
